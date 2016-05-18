@@ -48,6 +48,40 @@ public class Queue{
 --------------------------------------------------------------
 
 a)  Explain what a Stack is.  Specify if it is LIFO or FIFO.
+  A stack is a container that insert and remove. LIFO is when goes in Frits and goes out first. FIFO is when goes in first an goes out last.
 b)  Complete the Stack class by writing the "pop" method.
+public class Stack{
+  Link head;
+  int length=0;
+  
+  public Stack(Link first){
+    head=first;
+    length=1;}
+  
+  public void push(Link newlink){
+    newlink.next=head;
+    head=newlink;}
+    length=length+1;}
+    
+  public Link peek(Link newlink){
+    return head;}
+  public Pop(Link newlink){
+    head=newlink;
+    length=length-1;}}
+
+  
 c)  Explain what a Queue is.  Specify if it is LIFO or FIFO.
+    the LIFO queue is last in first out. FIFO queue is first in first out.
 d)  Complete the Queue class by writing the "peek" and "remove" methods.
+    public class Stack {
+
+    public static final int Peek();
+    public Object() remove;
+    public int numItems;
+    public Stack();
+
+    public Object pop();
+
+
+    public Object peek();
+}  
