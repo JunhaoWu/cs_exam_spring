@@ -13,3 +13,17 @@ public interface Greetings{
 a)  Explain what an interface is.
 INTERFACE is 
 b)  Write a complete class for a language speaker of your choice, like ItalianSpeaker, which fully implements the interface.
+
+
+public class ChineseSpeaker implements Greetings{
+
+public String FormalHello(){
+  System.out.println(NinHao);
+  }
+  
+  public String CasualHello(){
+  System.out.println(NiHao);
+  }
+  
+  }
+
